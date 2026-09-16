@@ -44,7 +44,7 @@ builder.Services
     .AddReverseProxy()
     .LoadFromConfig(
         builder.Configuration.GetSection("ReverseProxy"));
-
+// End Add YARP Reverse Proxy
 var app = builder.Build();
 
 // JWT middleware
