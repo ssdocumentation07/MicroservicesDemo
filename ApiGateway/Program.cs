@@ -39,7 +39,6 @@ builder.Services.AddAuthorization(options =>
     });
 });
 
-
 // Add YARP Reverse Proxy
 builder.Services
     .AddReverseProxy()
